@@ -16,6 +16,8 @@ public class main {
 		//System.out.println(localhost);
 		checkHosts("172.22.10");
 		
+		int toto = 120;
+		
 	}
 	
 	public static void checkHosts(String subnet) throws UnknownHostException, IOException{
