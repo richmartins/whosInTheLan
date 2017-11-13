@@ -17,7 +17,7 @@ public class main {
 		checkHosts("172.22.10");
 		
 		int toto = 120;
-		String tata = "tata";
+		String tata = "tata1";
 		
 	}
 	
