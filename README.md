@@ -2,6 +2,10 @@
 
 A scanner in java that print all the IP address that your computer can access by LAN with ICMP 
 
+## What you need
+
+	> Just install eclipse
+
 ## To Do
 
 	1. create a GUI
