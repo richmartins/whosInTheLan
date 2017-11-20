@@ -41,7 +41,7 @@ public class Window extends JFrame{
 	
 	public Window() throws UnknownHostException{
 		
-
+		
 		System.out.println("local machine IP :" + goodlocalhost);
 		
 		this.setTitle("Scanner LAN");
@@ -86,11 +86,8 @@ public class Window extends JFrame{
 	
 	public class Action implements ActionListener {
 		public void actionPerformed(ActionEvent e){
-			try {
-				checkHosts(goodlocalhost);
-			} catch (IOException e1) {
-				e1.printStackTrace();
-			}
+			System.out.println(goodlocalhost);
+			//checkHosts(goodlocalhost);
 		}
 	}
 }
